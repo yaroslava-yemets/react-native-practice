@@ -30,14 +30,15 @@ export default function ToDoList() {
   }
 
     return (
-      <Center p={10} flex={1}>
-        <Box 
+      <Center p={10} flex={1} >
+        <Box
           w="100%" 
+          overflow-x="scroll"
           justifyContent="space-between"
           alignItems="center"
         >
           <Heading mb="5" color="orange.500">To do List</Heading>
-          <VStack space={3} width="100%">
+          <VStack space={3} width="90%">
             <HStack space={3} justifyContent="space-between">
               <Input 
                 flex={1}
