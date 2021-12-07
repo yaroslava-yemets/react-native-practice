@@ -3,4 +3,7 @@
   color: #469e9e;
   width: 30vw;
   overflow-x: scroll;
+  align-self: flex-end;
+  list-style: none;
+  white-space: inherit;
 }
